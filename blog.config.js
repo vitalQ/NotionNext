@@ -4,7 +4,7 @@ const BLOG = {
   BIO: '', // 作者简介
   LINK: 'https://vitalblog.com', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID:
+  NOTION_PAGE_ID: 'Vital-3efcf94cc29d47f5ba173e00fdeb69bd',
   process.env.NOTION_PAGE_ID || 'Vital-3efcf94cc29d47f5ba173e00fdeb69bd', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
